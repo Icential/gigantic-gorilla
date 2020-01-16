@@ -353,11 +353,11 @@ client.on('message', msg => {
 // JFF Images
 client.on('message', msg => {
 	if (msg.content === 'kevin') {
-		const attachment = new Discord.Attachment('./images/god.png');
+		const attachment = new Discord.Attachment('./images/gor.png');
 		msg.channel.send(attachment);
 	}
 	else if (msg.content === 'KEVIN') {
-		const attachment0 = new Discord.Attachment('./images/god2.png');
+		const attachment0 = new Discord.Attachment('./images/gor0.png');
 		msg.channel.send(attachment0);
 	}
 	else if (msg.content === 'le monke') {
