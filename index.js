@@ -489,6 +489,3 @@ client.on('message', message => {
 		message.channel.send(embed);
 	}
 });
-
-// Token
-client.login('NTUzMDI0MTE5MjEwNTA4MzA4.D2KD4g.rl7NyXVIV-SgQ5xcToPv57BeWIg');
