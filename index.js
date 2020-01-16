@@ -210,8 +210,12 @@ client.on('message', msg => {
 		else if (typeof x !== 'number') {
 			x = Number(x);
 		}
+		const z = y.toString();
 		if (y > 10) {
 			msg.channel.send('Too many generations :triumph::triumph:');
+		}
+		else if (z.includes('-')) {
+			msg.channel.send('You cannot have a negative number of generations!');
 		}
 		else if (x.includes('-')) {
 			msg.channel.send('That\'s not a positive number smarty');
