@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const ascii = require('ascii-art');
 client.on('ready', () => console.log(`Logged in as ${client.user.tag}!`));
+require('events').EventEmitter.defaultMaxListeners = 15;
 const pre = 'k!';
 
 // JFF Texts
@@ -493,3 +494,5 @@ client.on('message', message => {
 		message.channel.send(embed);
 	}
 });
+
+client.login('NTUzMDI0MTE5MjEwNTA4MzA4.XiAbUQ.-EYsmV1hsRlACH_mXR9AWW2DlE4');
