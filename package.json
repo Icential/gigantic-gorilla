@@ -1,0 +1,23 @@
+{
+  "name": "my-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "ascii-art": "^1.5.1",
+    "discord.js": "^11.5.1",
+    "eslint": "^6.3.0",
+    "ffmpeg-binaries": "^4.0.0",
+    "opusscript": "0.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
