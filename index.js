@@ -213,7 +213,6 @@ client.on('message', msg => {
 		const z = y.toString();
 		if (y > 10) {
 			msg.channel.send('Too many generations :triumph::triumph:');
-			msg.channel.send('a');
 		}
 		else if (z.includes('-')) {
 			msg.channel.send('You cannot have a negative number of generations!');
