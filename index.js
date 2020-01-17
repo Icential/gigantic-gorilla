@@ -494,5 +494,3 @@ client.on('message', message => {
 		message.channel.send(embed);
 	}
 });
-
-client.login('NTUzMDI0MTE5MjEwNTA4MzA4.XiAbUQ.-EYsmV1hsRlACH_mXR9AWW2DlE4');
