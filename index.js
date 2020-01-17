@@ -495,4 +495,4 @@ client.on('message', message => {
 	}
 });
 
-client.login('NTUzMDI0MTE5MjEwNTA4MzA4.XiAbUQ.-EYsmV1hsRlACH_mXR9AWW2DlE4');
+client.login('NTUzMDI0MTE5MjEwNTA4MzA4.XiHRQA.tkHZ23XyUc1xVYWpGMFsIybWjug');
